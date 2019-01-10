@@ -1,0 +1,121 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title></title>
+        <style type="text/css">
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #nav {
+                width: 500px;
+                background-color: #737373;
+                height: 40px;
+                /*border-radius: 10px;*/
+                position: relative;
+                margin: 0px auto;
+                top: 0px;
+            }
+
+            .nav-container {
+                width: 100%;
+                height: 40px;
+                position: absolute;
+            }
+
+            .banner {
+                float: left;
+                text-align: center;
+                height: 40px;
+                width: 20%;
+                line-height: 40px;
+            }
+
+            <!--.banner:hover {-->
+                <!--background-color: #00BFFF;-->
+                <!--cursor: pointer;-->
+            <!--}-->
+
+            div ul {
+                list-style: none;
+                /*display: none;*/
+                background-color: blue;
+                overflow: hidden;
+                /*模拟height:auto时候的情况*/
+                max-height: 0px;
+                transition: max-height 0.3s;
+                /*多浏览器支持*/
+                -moz-transition: height 1s;
+                -webkit-transition: height 1s;
+                -o-transition: height 1s;
+            }
+
+            .banner:hover ul {
+                /*display: block;*/
+                width: 100%;
+                max-height: 160px;
+            }
+
+            div ul li {
+                overflow: hidden;
+            }
+
+            div ul li:hover {
+                background-color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="nav-container">
+            <div id="nav">
+                <div id="nav-button-1" class="banner">第1个导航
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                    </ul>
+                </div>
+                <div id="nav-button-2" class="banner">第2个导航
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </div>
+                <div id="nav-button-3" class="banner">第3个导航
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                    </ul>
+                </div>
+                <div id="nav-button-4" class="banner">第4个导航
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                </div>
+                <div id="nav-button-5" class="banner">第5个导航
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
+
+
+预览效果
