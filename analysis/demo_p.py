@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 # ! -*- coding:utf-8 -*-
+##从接口文档自动获取数据的小程序，李正强友情支持
 
 import requests
 import base64

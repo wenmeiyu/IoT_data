@@ -1,12 +1,12 @@
 #! /usr/bin/env python3
 # ! -*- coding:utf-8 -*-
+##从接口文档自动获取数据，并将json格式的数据解析，写入mysql数据库，每2分钟写一次
 
 import requests
 import base64
 import json
 import pymysql as mdb
 import time
-import matplotlib.dates as mdate
 import datetime
 
 
@@ -78,7 +78,7 @@ def op_data(json_data):
     return (results)
 
 
-
+#插入数据库
 def insert_table(results):
     con = mdb.connect('localhost', 'root', '19880511', 'shuichan');
     for i in range(len(results)):

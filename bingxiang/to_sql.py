@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+# ! -*- coding:utf-8 -*-
 #将txt文件插入mysql数据库
 import pymysql as mdb
 

@@ -1,4 +1,5 @@
 #! /usr/bin/env python3
+
 # ! -*- coding:utf-8 -*-
 
 # type_data.txt-type.txt  临时表
@@ -12,6 +13,9 @@
 #     file_write_obj.write('\n')
 #     print(str)
 # file_obj.close()
+# ------------
+# 一个把txt文件转化成sql语句的小程序，还可以通过查询mysql添加关联对象数据
+# -----------
 
 # # 增加产品类型列
 # import pymysql as mdb

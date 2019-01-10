@@ -1,5 +1,8 @@
 #! /usr/bin/env python3
 # ! -*- coding:utf-8 -*-
+# ------------
+# 一个把txt文件转化成sql语句的小程序，还可以通过查询mysql添加关联对象数据
+# -----------
 import os
 import csv
 import pandas as pd

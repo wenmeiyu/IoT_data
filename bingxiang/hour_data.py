@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+# ! -*- coding:utf-8 -*-
 # 获取每小时第一个点的数据
 import pandas as pd
 import numpy as np

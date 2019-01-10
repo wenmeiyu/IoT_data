@@ -1,3 +1,6 @@
+#! /usr/bin/env python3
+# ! -*- coding:utf-8 -*-
+# 获取每小时丢包
 import pandas as pd
 import numpy as np
 import warnings

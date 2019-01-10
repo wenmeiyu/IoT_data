@@ -1,10 +1,10 @@
+#! /usr/bin/env python3
+# ! -*- coding:utf-8 -*-
+#一个计算每小时丢包的小程序
+
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import statsmodels.tsa.stattools as st
-import seaborn as sns
 import warnings
-import datetime
 warnings.filterwarnings('ignore')
 
 def dateparse(dates): return pd.datetime.strptime(dates, '%Y/%m/%d %H:%M')

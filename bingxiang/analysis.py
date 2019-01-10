@@ -1,4 +1,6 @@
-# 解析数据
+#! /usr/bin/env python3
+# ! -*- coding:utf-8 -*-
+# 解析数据 将某传感器网站的密文数据解析，并按列存储到.csv文件中
 import pandas as pd
 import numpy as np
 import datetime
