@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../aquaculture/.idea/aquaculture.iml" filepath="$PROJECT_DIR$/../aquaculture/.idea/aquaculture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../data-analyze-demo-master/.idea/data-analyze-demo-master.iml" filepath="$PROJECT_DIR$/../data-analyze-demo-master/.idea/data-analyze-demo-master.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/xianjy/水产养殖/code/djangosite/.idea/djangosite.iml" filepath="$USER_HOME$/Downloads/xianjy/水产养殖/code/djangosite/.idea/djangosite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shuichan.iml" filepath="$PROJECT_DIR$/.idea/shuichan.iml" />
+    </modules>
+  </component>
+</project>
